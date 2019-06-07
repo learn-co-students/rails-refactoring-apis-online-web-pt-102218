@@ -3,7 +3,7 @@ class GithubRepo
   attr_reader :name, :url
 
   def initialize(hash)
-    @name = hash["name"]
+    @nam = hash["name"]
     @url = hash["html_url"]
   end
 
